@@ -1,3 +1,39 @@
 html{
-
+  background-color:white;
+}
+main{
+  position: fixed;
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+}
+h1{
+  color: #6EB5E0;
+  background-color: #A3E8E8;
+  font-family: Arial;
+  font-size: 44px;
+  text-decoration: underline;
+}
+h2{
+  color:#4880E0;
+  font-family: Arial;
+  margin: 10px;
+}
+h4{
+  display: block;
+  width: 20%;
+  margin-left: 40%;
+  position: absolute;
+}
+table{
+  width: 100%;
+  border: 2px solid black;
+}
+td{
+  width: 50%;
+}
+p{
+  margin: 50px 270px 50px 270px;
+  font-family: Helvetica;
+  font-size: 1.1em;
 }
