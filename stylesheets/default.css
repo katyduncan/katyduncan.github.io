@@ -1,7 +1,28 @@
 html{
   background-color: #A3E8E8;
+  display: inline-block;
 }
-header links a{
-  margin-right: -10px;
-  margin-left: 100px;
+img {
+  position: fixed;
+}
+h1 {
+  position: absolute;
+  margin-left: 10%;
+  width: 90%;
+  height: 50px;
+}
+h2 {
+  position: absolute;
+  margin-left: 10%;
+  width: 90%;
+  padding-top: 50px;
+}
+.headerlinks {
+  position: relative;
+  margin-left: 75%;
+}
+.footerlinks {
+  position: relative;
+  margin-left: 75%;
+  margin-top: 50%;
 }
