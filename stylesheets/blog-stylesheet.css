@@ -1,38 +1,38 @@
 html{
   background-color:white;
 }
+main {
+  border: 10px solid navy;
+  margin: 8% 15%;
+}
 .Heading {
+  text-align: center;
   position: static;
   display: block;
-  margin: 0 40%;
+  padding: 0;
+  width: 60%;
+  margin: 0 20%;
+  background-color: #A3E8E8;
+  font-family: sans-serif, helvetica, lucida;
+  font-style: italic;
 }
 h1{
   color: #6EB5E0;
-  background-color: #A3E8E8;
-  font-family: Arial;
   font-size: 44px;
-  text-decoration: underline;
+  padding-top: 10px;
+  margin-bottom: 0%;
 }
 h2{
   color:#4880E0;
-  font-family: Arial;
-  margin: 10px;
 }
 h4{
-  display: block;
-  width: 20%;
-  margin-left: 40%;
-  position: absolute;
+  padding-bottom: 10px;
+  font-family: helvetica cursive;
 }
-table{
-  width: 100%;
-  border: 2px solid black;
-}
-td{
-  width: 50%;
-}
-p{
-  margin: 50px 270px 50px 270px;
+
+.Text {
   font-family: Helvetica;
   font-size: 1.1em;
+  padding: 2px 20px;
 }
+
