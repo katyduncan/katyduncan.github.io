@@ -1,9 +1,13 @@
 html{
   background-color: #A3E8E8;
-  display: inline-block;
+  font-family: helvetica;
+  font-style: italic;
 }
 img {
   position: fixed;
+}
+#header{
+  display: inline-block;
 }
 h1 {
   position: absolute;
@@ -18,11 +22,37 @@ h2 {
   padding-top: 50px;
 }
 .headerlinks {
-  position: relative;
-  margin-left: 75%;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-top: 75px;
+}
+a {
+  text-decoration: none;
+  color: navy;
+}
+.crossline{
+  border: 0;
+  width: 100%;
+  right: 0;
+  display: block;
+}
+#backdrop{
+  margin-top: 10px;
+  height: 20em;
+  background-color: teal;
+}
+#topline{
+  margin-top: 95px;
+  height: 1px;
+  background-color: navy;
+}
+#bottomline{
+  height: 1px;
+  background-color: navy;
 }
 .footerlinks {
-  position: relative;
-  margin-left: 75%;
+  position: absolute;
+  right: 0;
   margin-top: 50%;
 }
