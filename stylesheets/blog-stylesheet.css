@@ -43,6 +43,7 @@ img {
 .code {
   background: gray;
   font-family: helvetica;
-  font-weight: bold;
+  font-size: 1em;
+  padding: 15px;
 }
 
