@@ -15,24 +15,41 @@
   <section>
     <div class="Text">
       <p>
-        In learning the fundamentals of coding (and Ruby in particular), I have found that the basic structure boils down to taking “objects” and manipulating them with various types of “methods.” It has also become apparent that some objects are extremely versatile and useful in their ability to store more than one piece of information. Namely, "Arrays" and "Hashes" are incredibly important and advantageous objects thanks to their list-like structure. But in order to get optimal use out of the two it is first important to fully understand the differences between them.
+        In learning the fundamentals of coding (and Ruby in particular), I have found that the basic structure boils down to taking “objects” and manipulating them with various types of “methods.” It has also become apparent that some objects are extremely versatile and useful in their ability to store more than one piece of information. Namely, “Arrays” and “Hashes” are incredibly important and advantageous objects thanks to their list-like structure. But in order to get optimal use out of the two it is first important to fully understand the differences between them.
       </p>
       <p>
-        You can think of both arrays and hashes as lists of stored information. But an array is like a number-ordered list, while a hash is more like a pile of flashcards.
+        You can think of both arrays and hashes as lists of stored information, and these lists can contain any combination of types of objects (such as integers and/or strings… or even lists of lists!) and can be as long as you’d like. But an array is like a number-ordered list, while a hash is more like a pile of flashcards.
       </p>
       <p>
-        Arrays are defined as a list of values, and each slot in the list has a corresponding number index. There are a number of ways to define and array, but below is one example of a common form:
+        There are a number of ways to define an array, but below is one example of a common form:
       </p>
       <p>
         <div class ="code">
-          example_array = [1,’two’, 3]
+          favorite_cookie = [‘oatmeal chocolate chip’, ‘chocolate chip’, ‘Oreo’, ‘Milano’]
         </div>
       </p>
       <p>
-        Yet another paragraph...
+        Each slot in an array has a corresponding number index that can be used to reference a given object. Note though that the first entry is in the “0th” index, so in the above example we would call favorite_cookie[0] to see that it is oatmeal chocolate chip. To check what ranks as first runner up for my favorite cookie, we’d call favorite_cookie[1] to see that it returns chocolate chip. Second runner up, or, favorite_cookie[2] returns Oreo, and so on (this list is clearly not complete, but remember arrays do have the freedom to be however long you’d like).
       </p>
-
-      <!-- copy and paste as many sections as you want to add paragraphs -->
+      <p>
+        Somewhat similarly to an array, a hash can hold a list of values with corresponding reference keys, but these keys have to be provided by the user, and there is no particular order to the pairs of keys and their values. If we think back to my sweet tooth we saw that I could create an ordered list that ranked my favorite type of cookie. I could probably do the same for my favorite flavor of ice cream, or my favorite kind of pie, etc.  But if you were to ask me what my favorite dessert of all was, I would not be able to come up with an answer. Each type of dessert is so good in it’s own way, that there’s just no way to compare them. So I would have to instead present my favorite desserts in a manner that did not force any kind of rank or order on them. For example:
+      </p>
+      <p>
+        <div class ="code">
+          <p>
+            favorite_dessert = { “Cookie” => “Oatmeal Chocolate Chip”,
+          </p>
+          <p>“Ice cream” => “Coffee”,</p>
+          <p>“Pie” => “Chocolate Pecan”,</p>
+          <p>“Cake” => “Almond”}</p>
+        </div>
+      </p>
+      <p>
+        This hash provides a list of my favorite types of dessert, but it is by no means a representation of which type of dessert is preferred over another. In a hash the order doesn’t make any difference. Notice you need to provide a reference key for each value, because there isn’t a default index number associated with the entries. In fact you will have an error if you do not include a label for each value you give.
+      </p>
+      <p>
+        So hashes provide an ideal way to store information when you want to pair a certain value with a reference key and do not care about (or perhaps do not want) a specific order to the items in the list. An array, on the other hand, is a great way to maintain order and allows you to easily look up a given value by the index number. Both arrays and hashes have their benefits depending on the task at hand, so it’s great to understand their subtle nuances to make the most out of your Ruby code!
+      </p>
     </div>
   </section>
 </main>
