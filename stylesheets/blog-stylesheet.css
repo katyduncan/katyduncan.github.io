@@ -29,7 +29,6 @@ h4{
   padding-bottom: 10px;
   font-family: helvetica cursive;
 }
-
 .Text {
   font-family: helvetica cursive;
   font-style: italic;
@@ -41,5 +40,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
+.code {
+  background: gray;
+  font-family: helvetica;
+  font-weight: bold;
+}
 
