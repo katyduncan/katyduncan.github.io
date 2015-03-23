@@ -18,10 +18,19 @@
         You can't get far in learning how to code without coming across a basic loop structure. One of the major benefits of programming a computer to do the work for you is that when you need to repeat a step several times, rather than manually write out the steps over and over, you can tell the computer to loop over one set of the code multiple times. Going a step further, if you want to change a piece of information between each run of the code, like say you give your code input with multiple data points and you want to perform the code for each data point given, you can set up an iteration to run your code (which keep in mind could contain loops within it!) for each data point.
       </p>
       <p>
-        Iteration is an extremely useful way to get your computer to perform your code for each piece of data. But what if you want to take it a step further and repeat this iteration multiple times. You could type out your iteration multiple times, but by now you know that is not how an efficient coder thinks. Instead, you can use a single command to tell your computer to repeat the iteration a ceratin number of times. In this case, you can use the Ruby enumerable method, "cycle" to repeat an iteration a given number of times.
+        Iteration is an extremely useful way to get your computer to perform your code for each piece of data. But what if you want to take it a step further and repeat this iteration multiple times? You could type out your iteration several times, but by now you know that is not how an efficient coder thinks. Instead, you can use a single command to tell your computer to repeat the iteration a ceratin number of times. In this case, you can use the Ruby enumerable method, "cycle" to repeat an iteration a given number of times.
       </p>
       <p>
         Here are some examples of #cycle at work:
+      </p>
+      <p>
+        example_array = ["There's", "no", "place", "like", "home!"]
+      </p>
+      <p>
+        example_array.cycle(3) {|x| print x + " "}
+      </p>
+      <p>
+        Prints out, "There's no place like home! There's no place like home! There's no place like home! "
       </p>
     </div>
   </section>
