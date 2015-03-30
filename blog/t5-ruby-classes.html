@@ -20,12 +20,10 @@
       <p>
         Let’s say we want to create a type of object in Ruby called “Dessert_option.” For each Dessert_option you come up with, rather than repeatedly identify the properties of each one, you can define a Dessert_option class that will automatically populate each of the Dessert_option objects with the specified methods. For example, you probably know that each Dessert_option has a “name.” Maybe you’d also like to specify that each has a “location”, a “specialty”, a “quality”, or anything else you choose! You can also choose whether you’d like each of these properties to be readable (where you can output the value that is already determined), writable (where you can input the value on the spot), or both! Our class definition might look something like this:
       </p>
-      <p>
+      <pre>
         class Dessert_option
-      </p>
-      <p>
           attr_reader :quality
-      </p>
+      </pre>
       <p>
           attr_accessor :location, :specialty, :price_range
       </p>
