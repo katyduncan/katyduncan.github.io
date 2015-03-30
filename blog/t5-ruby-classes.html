@@ -7,24 +7,39 @@
 
 <main>
   <div class="Heading">
-    <h1>Getting Classy</h1>
-    <h2>Why and How To Stay as Classy as San Diego</h2>
+    <h1>How To Stay as Classy as San Diego</h1>
+    <h2>Why and How To Use the Ruby Class Structure</h2>
     <h4>3/28/15</h4>
   </div>
 
   <section>
     <div class="Text">
       <p>
-        Coming Soon...
+        Like I’ve said before, as programmers we should always be looking for ways to decrease the amount of work we have to do when writing code, especially when it comes to manually typing repetitive code over and over. Luckily, Ruby has a very helpful way to organize and reduce code. The class structure is a great tool for creating and defining methods and attributes for multiple objects that share the same properties.
       </p>
       <p>
-
+        Let’s say we want to create a type of object in Ruby called “Dessert_option.” For each Dessert_option you come up with, rather than repeatedly identify the properties of each one, you can define a Dessert_option class that will automatically populate each of the Dessert_option objects with the specified methods. For example, you probably know that each Dessert_option has a “name.” Maybe you’d also like to specify that each has a “location”, a “specialty”, a “quality”, or anything else you choose! You can also choose whether you’d like each of these properties to be readable (where you can output the value that is already determined), writable (where you can input the value on the spot), or both! Our class definition might look something like this:
       </p>
       <p>
+        class Dessert_option
+          attr_reader :quality
+          attr_accessor :location, :specialty, :price_range
 
+          def initialize
+            @quality = “Excellent”
+            @location
+            @specialty
+            @price_range
+          end
+
+          def specialty(dessert)
+            @specialty = dessert
+          end
+        end
       </p>
-
-      <!-- copy and paste as many sections as you want to add paragraphs -->
+      <p>
+        Properties like location and specialty can be input with the creation of each new Dessert_option. Notice that in this case the quality is predetermined to be “Excellent” regardless of which option you’re talking about, by nature of these all being desserts…
+      </p>
     </div>
   </section>
 </main>
