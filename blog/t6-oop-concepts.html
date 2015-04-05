@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <title>Katy's DBC Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <div class="Heading">
+    <h1>Variable Scope</h1>
+    <h2>What types of variables to use in Ruby</h2>
+    <h4>4/4/15</h4>
+  </div>
+
+  <section>
+    <div class="Text">
+      <p>
+        One of the most important things when coding in ruby is staying organized. An important aspect of this is keeping track of the information you are handling. In particular, when you use variables to store information is it important to know how to balancing wanting to keep that information safe in one place while also knowing when you’ll need access to that information while somewhere else in the code.
+      </p>
+      <p>
+        CONSTANT This is constant. Everywhere. You can call it anywhere and count on it to give the same value. The all caps should warn everyone that the value of this variable should never change. If that’s not enough Ruby will warn you when you run a program that tries to change the value of a constant. No matter what new instances of a class you create this constant never changes.
+      </p>
+      <p>
+        $global Similar to a constant, this variable is accessible everywhere and should be considered to be stable. It’s useful if you’re trying to call the same value everywhere. But keep in mind if you change the value, it will change everywhere. This keep be a good thing but you have to be careful since you might not always see all of the places that call this variable that will be affected by a change. Again, with every new instance of a class that you create, this global variable's value remains unchanged.
+      </p>
+      <p>
+        @@class A class variable is consistent within its class. You can call it from any method within a class, but it will not be recognized outside of its class. You probably don’t want to change it’s value unless you are sure you want the value to change for the entire class. You can call it in any method, but anytime you recreate a new object of a class that variable will retain the same value of the most current definition, so you have to be careful about chainging it, because it won’t reset for new instances of your class. It retains its value even through the creation of new instances.
+      </p>
+      <p>
+        @instance This is what I (at least currently) consider to be the most understandable/likely useful variable. It can be called within other methods within the class, and it’s value can be redefined in different methods. For that instance of the class then you can use the newly defined values and make progress through your code with the changeable values of that variable. But when you create a new instance of your class, the instance variable is reset to it’s default value upon initialization, so you can work with it in your new instance accordingly and again change its value as needed without affecting its value in other instances of the same class.
+
+      </p>
+      <p>
+        local A local variable has very limited access. This can be useful in that you know you aren’t able to mess with it or its value in many other places in the code. But should you need it elsewhere you might have to recreate it. It’s up to you to balance the repetition of reusing this variable vs. redefining it as a variable with a broader scope.
+      </p>
+      <p>
+        So depending on how you anticipate using a variable, you can assign them accordingly. In general it is a best practice to set your variable to have the smallest scope necessary to decrease opportunities to change a variable's value and have it unknowingly affect code elsewhere.
+      </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+    </div>
+  </section>
+</main>
+
