@@ -11,13 +11,13 @@ img {
 }
 h1 {
   position: absolute;
-  margin-left: 10%;
+/*  margin-left: 10%;*/
   width: 90%;
   height: 50px;
 }
 h2 {
   position: absolute;
-  margin-left: 10%;
+/*  margin-left: 10%;*/
   width: 90%;
   padding-top: 50px;
 }
