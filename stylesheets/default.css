@@ -48,12 +48,13 @@ a {
   background-color: navy;
 }
 #bottomline{
-  padding-top: 50px;
+  margin-top: 10px;
   height: 1px;
   background-color: navy;
 }
 .footerlinks {
   position: absolute;
   right: 0;
-  margin-top: 50%;
+  padding-right: 10px;
+  margin-top: 8px;
 }
