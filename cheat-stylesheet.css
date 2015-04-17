@@ -10,9 +10,8 @@
 
 p{
   width: 400px;
-  float: left;
-  margin: 5px;
-  padding: 5px;
+  margin-top: 20px;
+  padding: 10px 0px 5px 0px;
   background-color: #EFEFEF;
 }
 
