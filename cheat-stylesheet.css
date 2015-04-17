@@ -1,0 +1,36 @@
+html{
+  background-color: #FFFFE0;
+}
+
+#Heading{
+  font-family: Arial, Verdana, sans-serif;
+  position: relative;
+}
+
+p{
+  width: 400px;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  background-color: #EFEFEF;
+}
+
+.clear{
+  clear: left;
+}
+
+.Strings{
+  height: 50px;
+}
+
+.Integers{
+  height: 50px;
+}
+
+.Arrays{
+  height: 100px;
+}
+
+.Hashes{
+  height: 100px;
+}
