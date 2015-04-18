@@ -2,7 +2,7 @@
   background-color: #FFFFE0;
 }
 
-#Heading{
+.Heading{
   font-family: Arial, Verdana, sans-serif;
   position: relative;
   text-align: justify;
@@ -18,18 +18,18 @@ p{
   text-align: left;
 }
 
-.Strings{
+#Strings{
   height: 50px;
 }
 
-.Integers{
+#Integers{
   height: 50px;
 }
 
-.Arrays{
+#Arrays{
   height: 150px;
 }
 
-.Hashes{
+#Hashes{
   height: 150px;
 }
