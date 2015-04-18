@@ -41,11 +41,10 @@ a {
   right: 0;
   display: block;
 }
-/*#backdrop{
+#backdrop{
   margin-top: 10px;
   height: 20em;
-  background-color: #A3E8E8;
-}*/
+}
 #topline{
   margin-top: 95px;
   height: 1px;
