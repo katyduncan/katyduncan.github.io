@@ -40,9 +40,11 @@ a {
   right: 0;
   display: block;
 }
-#backdrop{
+img{
   margin-top: 10px;
   height: 20em;
+  position: absolute;
+  padding-right: 10px;
 }
 #topline{
   margin-top: 95px;
