@@ -2,17 +2,17 @@
   background-color: #FFFFE0;
 }
 
-/*#Heading{
-  font-family: Arial, Verdana, sans-serif;
-  position: relative;
-  text-align: center;
-}*/
-
-h1{
+.Heading{
   font-family: Arial, Verdana, sans-serif;
   position: relative;
   text-align: center;
 }
+
+/*h1{
+  font-family: Arial, Verdana, sans-serif;
+  position: relative;
+  text-align: center;
+}*/
 
 p{
   width: 48%;
