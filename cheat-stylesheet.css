@@ -8,18 +8,12 @@
   text-align: center;
 }
 
-/*h1{
-  font-family: Arial, Verdana, sans-serif;
-  position: relative;
-  text-align: center;
-}*/
-
 p{
   width: 48%;
   margin: 5px;
   margin-top: 20px;
   float: left;
-  padding: 10px 0px 5px 0px;
+/*  padding: 10px 0px 5px 0px;*/
   background-color: #EFEFEF;
   text-align: left;
 }
