@@ -2,10 +2,16 @@
   background-color: #FFFFE0;
 }
 
-.Heading{
+/*#Heading{
   font-family: Arial, Verdana, sans-serif;
   position: relative;
-  text-align: justify;
+  text-align: center;
+}*/
+
+h1{
+  font-family: Arial, Verdana, sans-serif;
+  position: relative;
+  text-align: center;
 }
 
 p{
@@ -27,9 +33,9 @@ p{
 }
 
 .Arrays{
-  height: 150px;
+  height: 100px;
 }
 
 .Hashes{
-  height: 150px;
+  height: 100px;
 }
