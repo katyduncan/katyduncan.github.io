@@ -24,18 +24,18 @@ p{
   text-align: left;
 }
 
-.Strings{
+#Strings{
   height: 50px;
 }
 
-.Integers{
+#Integers{
   height: 50px;
 }
 
-.Arrays{
+#Arrays{
   height: 100px;
 }
 
-.Hashes{
+#Hashes{
   height: 100px;
 }
