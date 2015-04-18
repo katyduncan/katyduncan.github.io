@@ -3,28 +3,30 @@ html{
   font-family: helvetica;
   font-style: italic;
 }
-img {
+img{
   position: absolute;
+  margin-top: 10px;
+  height: 20em;
 }
 #header{
   display: inline-block;
 }
-h1 {
+h1{
   position: absolute;
   width: 90%;
   height: 50px;
 }
-h2 {
+h2{
   position: absolute;
   width: 90%;
   padding-top: 50px;
 }
-h3 {
+h3{
   position: absolute;
   width: 40%;
   padding-top: 100px;
 }
-.headerlinks {
+.headerlinks{
   display: inline-block;
   position: absolute;
   right: 0;
@@ -41,10 +43,6 @@ a {
   right: 0;
   display: block;
 }
-#backdrop{
-  margin-top: 10px;
-  height: 20em;
-}
 #topline{
   margin-top: 95px;
   height: 1px;
@@ -55,7 +53,7 @@ a {
   height: 1px;
   background-color: navy;
 }
-.footerlinks {
+.footerlinks{
   position: absolute;
   right: 0;
   padding-right: 10px;
