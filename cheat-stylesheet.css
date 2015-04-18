@@ -1,11 +1,11 @@
 *{
   background-color: #FFFFE0;
-  text-align: center;
 }
 
 #Heading{
   font-family: Arial, Verdana, sans-serif;
   position: relative;
+  text-align: center;
 }
 
 p{
