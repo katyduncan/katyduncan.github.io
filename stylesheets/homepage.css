@@ -5,6 +5,8 @@ html{
 }
 img {
   position: absolute;
+  padding-right: 10px;
+  z-index: -1;
 }
 #header{
   display: inline-block;
