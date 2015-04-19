@@ -4,7 +4,14 @@ html {
   font-style: italic;
   color: navy;
 }
-main {
+/*main {
+  border: 10px solid navy;
+  margin: 8% 15%;
+  text-align: center;
+  background-color: white;
+  line-height: .9;
+}*/
+body {
   border: 10px solid navy;
   margin: 8% 15%;
   text-align: center;
