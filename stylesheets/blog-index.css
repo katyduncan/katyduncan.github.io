@@ -3,9 +3,12 @@ html{
   font-family: helvetica;
   font-style: italic;
 }
-main {
+main{
   border: 10px solid navy;
   margin: 8% 15%;
   text-align: center;
   background-color: white;
+}
+a{
+  color: navy;
 }
