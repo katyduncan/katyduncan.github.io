@@ -9,9 +9,13 @@ main {
   margin: 8% 15%;
   text-align: center;
   background-color: white;
+  line-height: .9;
 }
 #Title {
   text-decoration: underline;
+  line-height: 1.1;
+  font-weight: bolder;
+  font-size: 12;
 }
 .headerlinks {
   position: absolute;
@@ -27,10 +31,6 @@ main {
   display: block;
   height: 10px;
 }
-p {
-  line-height: .75;
-}
 a {
-  text-decoration: none;
   color: navy;
 }
