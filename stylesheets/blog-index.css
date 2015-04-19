@@ -1,16 +1,19 @@
-html{
+html {
   background-color: #A3E8E8;
   font-family: helvetica;
   font-style: italic;
+  color: navy;
 }
-main{
+main {
   border: 10px solid navy;
   margin: 8% 15%;
   text-align: center;
   background-color: white;
 }
+#Title {
+  text-decoration: underline;
+}
 .headerlinks {
-/*  display: inline-block;*/
   position: absolute;
   right: 0;
   margin-top: 10px;
@@ -22,7 +25,12 @@ main{
   width: 100%;
   right: 0;
   display: block;
+  height: 10px;
+}
+p {
+  line-height: .75;
 }
 a {
+  text-decoration: none;
   color: navy;
 }
