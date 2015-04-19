@@ -13,8 +13,7 @@ img {
   border-radius: 50%;
   box-shadow: 15px 15px 0 0 blue;
   z-index: 3;
-  position: absolute;
-  top: 150px
+  top: 150px;
   left: 500px;
 }
 #header {
