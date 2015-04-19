@@ -18,7 +18,7 @@ body {
   background-color: white;
   line-height: .9;
 }
-#index {
+.index {
   border: 10px solid navy;
   margin: 8% 15%;
   text-align: center;
