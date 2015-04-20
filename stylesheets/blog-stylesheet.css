@@ -5,29 +5,32 @@ main {
   border: 10px solid navy;
   margin: 8% 15%;
 }
+.BlogList {
+  position: absolute;
+  font-style: italic;
+  font-family: sans-serif, helvetica, lucida;
+}
 .Heading {
   text-align: center;
-  position: static;
   display: block;
-  padding: 0 40px 0 40px;
-  width: 60%;
+  padding: 5%;
   margin: auto;
   background-color: #A3E8E8;
   font-family: sans-serif, helvetica, lucida;
   font-style: italic;
+  color: navy;
 }
 h1{
-  color: #6EB5E0;
   font-size: 44px;
-  padding-top: 10px;
-  margin-bottom: 0%;
+  margin: 0%;
 }
 h2{
-  color:#4880E0;
+  margin: 5px;
 }
 h4{
-  padding-bottom: 10px;
   font-family: helvetica cursive;
+  color: #6EB5E0;
+  margin: 0;
 }
 .Text {
   font-family: helvetica cursive;
