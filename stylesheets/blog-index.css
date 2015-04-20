@@ -12,7 +12,7 @@ body {
   line-height: .9;*/
 }
 .index {
-  margin-top: 8% 15%;
+  margin: 8% 15%;
   border: 10px solid navy;
   padding: 8% 15%;
   text-align: center;
@@ -33,11 +33,14 @@ h1 {
   text-decoration: none;
 }
 .crossline {
-  border: 0;
+/*  border: 0;
   width: 100%;
   right: 0;
   display: block;
-  height: 10px;
+  height: 10px;*/
+  margin-top: 95px;
+  height: 1px;
+  background-color: navy;
 }
 a {
   color: navy;
