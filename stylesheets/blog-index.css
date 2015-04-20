@@ -4,15 +4,8 @@ html {
   font-style: italic;
   color: navy;
 }
-body {
-/*  border: 10px solid navy;*/
-/*  margin: 8% 15%;*/
-/*  text-align: center;
-  background-color: white;
-  line-height: .9;*/
-}
 .index {
-  margin: 0% 15% 8%;
+  margin: 1% 15% 8%;
   border: 10px solid navy;
   padding: 8% 15%;
   text-align: center;
@@ -26,18 +19,13 @@ h1 {
   font-size: 14pt;
 }
 .headerlinks {
+  display: inline-block;
   position: absolute;
   right: 0;
-  margin-top: 10px;
+  margin-top: 75px;
   padding-right: 10px;
-  text-decoration: none;
 }
 .crossline {
-/*  border: 0;
-  width: 100%;
-  right: 0;
-  display: block;
-  height: 10px;*/
   margin-top: 95px;
   height: 1px;
   background-color: navy;
