@@ -22,8 +22,9 @@ h1 {
   display: inline-block;
   position: absolute;
   right: 0;
-  margin-top: 75px;
+  top: 75px;
   padding-right: 10px;
+  text-decoration: none;
 }
 .crossline {
   margin-top: 95px;
