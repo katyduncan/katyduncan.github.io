@@ -43,3 +43,8 @@ p {
   color: #333333;
   font-style: italic;
 }
+
+img {
+  height: 1400px;
+  width: 100%;
+}
