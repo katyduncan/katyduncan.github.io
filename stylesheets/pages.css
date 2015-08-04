@@ -1,1 +1,50 @@
-pages.css
+html {
+  background-color: #A3E8E8;
+  font-family: helvetica;
+  font-style: italic;
+  color: navy;
+}
+.index {
+  margin: 1% 15% 8%;
+  border: 10px solid navy;
+  padding: 8% 15%;
+  text-align: center;
+  background-color: white;
+  line-height: .9;
+  position: absolute;
+/*  bottom: 1400px;*/
+}
+h1 {
+  text-decoration: underline;
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 14pt;
+}
+.headerlinks {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  padding-right: 10px;
+}
+.crossline {
+  margin-top: 95px;
+  height: 1px;
+  background-color: navy;
+  position: relative;
+  bottom: 1400px;
+}
+a {
+  color: navy;
+  font-size: 12pt;
+}
+p {
+  font-size: 10pt;
+  color: #333333;
+  font-style: italic;
+}
+
+img {
+  height: 1400px;
+  width: 100%;
+}
