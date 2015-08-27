@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <title>Katy's DBC Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <div class="BlogList">
+    <a href="http://katyduncan.github.io/blog/blog-index.html">Return to All Blogs</a>
+  </div>
+  <div class="Heading">
+    <h1>Post Title</h1>
+    <h2>The subtitle, if you want it</h2>
+    <h4>Today's Date</h4>
+  </div>
+
+  <section>
+    <div class="Text">
+      <h3>What is it?</h3>
+      <p>
+        I often hear people ask: Is jQuery a framework? A language? An alternative to JavaScript? While often referred to as a framework, jQuery is technically a JavaScript library made up of countless pre-written functions you can use in JavaScript. With it’s handy shortcut access through the ‘$’ symbol, and particularly useful ability to select elements by their CSS selectors, you can easily manipulate html elements to create a fun and interactive website. Not only does jQuery pack loads of capabilities into few lines of code, but it also conveniently includes cross-browser compatibility that is built-in automatically.
+      </p>
+      <h3>Where do you see jQuery in use?</h3>
+      <p>
+        jQuery is an extremely popular tool for DOM manipulation and is used across a wide range of applications. Take a look online and you’ll notice how common it is nowadays to see single-page applications that allow forms or new content to appear on the screen instantly, without the page having to refresh. Or even something as simple as an animated response to the click of a button on a website. By now we may take for granted how these small details better the user experience. Well it’s likely that under the hood, jQuery is responsible for this frontend magic, and these are just a couple simple examples of how jQuery appears in our lives on the web everyday.
+      </p>
+      <h3>Do you have to use it?</h3>
+      <p>
+        Is jQuery something you have to learn to use to keep up with the latest trends in user-friendly DOM/UI? Actually, no! Everything that you find in jQuery you have the ability to create with regular vanilla JavaScript. jQuery is, afterall, just a collection of code written in JavaScript. Anyone can recreate any piece of jQuery functionality on his or her own. Need more convincing? Take a look at the code snippets below:
+      </p>
+      <p>
+        Here I’ve written out my version of a function that selects a given html element:</p>
+      <p>
+        And now take a look at the amount of code used in the jQuery version that provides the same functionality:
+      </p>
+      <h3>How do you decide if you should or shouldn't use jQuery?</h3>
+      <p>
+        After looking at the example above, it seems clear that the code written with jQuery is much shorter and more efficient to use, so everyone should definitely use jQuery, right? Well not so fast. There are still some reasonable concerns to be aware of when considering whether or not to use jQuery in your app. While a healthy population of developers loves to bring up the point that in tech there is “no need to rebuild the wheel,” and it’s clear that technology thrives from building off of other ideas and using known solutions to get further, there are some strings attached to using a JavaScript library. As with any technological dependency, you have to be wary of version updates when linking to an outside source. Depending on the scale of your project, even a small change made in an update to jQuery could end up being very disruptive to your operations. An alternative may be to download a static version of the library to store within your app, to eliminate the affect of remote changes, but if space is an issue, your app might not have room to store this sizable library. And while you could manually go through and download just the parts of the library you think you need, this could prove to be a much more laborious task than it’s worth. To take things to the extreme you may consider not using jQuery at all, and simply keeping to your own original code, to best avoid risk of outer-dependencies. But again, depending on the project, this alternative could turn out to be much more work than is reasonable. All of these options are still viable; just keep in mind that you should be sure to evaluate the best route for your specific case.
+      </p>
+      <h3>How to implement/install</h3>
+      <p>
+        If you do make the decision to use jQuery for your project, how do you get started? Well it’s really quite simple. As outlined in the jQuery Documentation, you can link to jQuery through a CDN or download the full library. If you’re going the CDN route don’t forget you’ll likely need to require the gem and follow the appropriate procedure for accessing it for you app (for example in rails you’ll need to reference it in your application.js file for your asset pipeline). And then you’re good to go! Browse the jQuery's API documentation for a complete rundown on all functions, google search for the specific tool you want to implement, or look for examples online. You’ll quickly find that jQuery is very simple to use and that it’s easy to get lost playing with all of the possibilities of even a single function. For example, should you choose to explore the AJAX function, you’ll immediately tap into jQuery’s unique ability to make HTTP requests (the secret behind all of those sleek, one-page apps). Indeed, this function is so powerful that I will have wait until my next post to venture down that rabbit hole.
+      </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+    </div>
+  </section>
+</main>
+
