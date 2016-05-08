@@ -3,7 +3,7 @@
   background-image: url('../images/large-yellow-sunflower-close-up-animated-gif.gif');
   background-repeat: no-repeat;
   height: 3000px;
-  cursor: url('../images/maya-face.png.png'), default;
+  cursor: url('../images/maya-face.png'), default;
 }
 
 .anya .anya-text {
