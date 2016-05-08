@@ -1,4 +1,8 @@
-body {
+.paula {
   background-color: yellow;
-  background-image: url('../images/large-yellow-sunflower-close-up-animated-gif.gif');
+  background-image: url('../images/large-yellow-sunflower-close-up-animated-gif.gif') center no-repeat;
+}
+
+.paula h1 {
+  font-family: cursive;
 }
