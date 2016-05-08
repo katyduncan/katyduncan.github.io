@@ -23,5 +23,5 @@
 }
 
 body {
-  cursor: url('../images/katy-face.png');
+  cursor: url('../images/katy-face.png.ico'), default;
 }
