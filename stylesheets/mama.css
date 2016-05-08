@@ -1,7 +1,8 @@
 .mama {
   background-color: #FFD821;
-  background-image: url('../images/large-yellow-sunflower-close-up-animated-gif.gif');
+  background-image: url('../images/iris.png');
   background-repeat: no-repeat;
+  background-size: cover;
   height: 3000px
 }
 
