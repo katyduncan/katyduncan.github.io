@@ -5,7 +5,7 @@
   height: 3000px
 }
 
-.paula paula-text {
+.paula .paula-text {
   font-family: cursive;
   padding-top: 50px;
   padding-right: 80px;
@@ -14,10 +14,10 @@
   padding-right: 80px;
 }
 
-.paula paula-text h1 {
+.paula .paula-text h1 {
   font-size: 50px;
 }
 
-.paula paula-text p {
+.paula .paula-text p {
   font-size: 25px;
 }
