@@ -5,15 +5,19 @@
   height: 3000px
 }
 
-.paula h1 {
-  font-size: 50px;
+.paula paula-text {
+  font-family: cursive;
   padding-top: 50px;
   padding-right: 80px;
-  font-family: cursive;
-  float: right;
-}
-.paula p {
   float: right;
   text-align: center;
   padding-right: 80px;
+}
+
+.paula paula-text h1 {
+  font-size: 50px;
+}
+
+.paula paula-text p {
+  font-size: 25px;
 }
