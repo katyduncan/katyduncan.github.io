@@ -1,18 +1,14 @@
 .mama {
-  background-color: #FFD821;
   background-image: url('../images/iris.png');
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 3000px
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .mama .mama-text {
   font-family: cursive;
   padding-top: 50px;
-  padding-right: 80px;
-  float: right;
   text-align: center;
-  padding-right: 80px;
 }
 
 .mama .mama-text h1 {
