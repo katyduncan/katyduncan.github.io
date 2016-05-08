@@ -21,3 +21,7 @@
 .paula .paula-text p {
   font-size: 25px;
 }
+
+body {
+  cursor: url('../images/katy-face.png');
+}
