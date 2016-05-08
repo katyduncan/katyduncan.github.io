@@ -1,1 +1,27 @@
-mama.css
+.mama {
+  background-color: #FFD821;
+  background-image: url('../images/large-yellow-sunflower-close-up-animated-gif.gif');
+  background-repeat: no-repeat;
+  height: 3000px
+}
+
+.mama .mama-text {
+  font-family: cursive;
+  padding-top: 50px;
+  padding-right: 80px;
+  float: right;
+  text-align: center;
+  padding-right: 80px;
+}
+
+.mama .mama-text h1 {
+  font-size: 50px;
+}
+
+.mama .mama-text p {
+  font-size: 25px;
+}
+
+body {
+  cursor: url('../images/katy-face.png.png'), default;
+}
