@@ -1,4 +1,4 @@
-.anya {
+.mel {
   background-color: #FFD821;
   background-image: url('blooming.mp4');
   background-repeat: no-repeat;
@@ -6,7 +6,7 @@
   cursor: url('../images/maya-face.png'), default;
 }
 
-.anya .anya-text {
+.mel .mel-text {
   font-family: cursive;
   padding-top: 50px;
   padding-right: 80px;
@@ -15,10 +15,10 @@
   padding-right: 80px;
 }
 
-.anya .anya-text h1 {
+.mel .mel-text h1 {
   font-size: 50px;
 }
 
-.anya .anya-text p {
+.mel .mel-text p {
   font-size: 25px;
 }
