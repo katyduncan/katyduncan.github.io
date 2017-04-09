@@ -1,9 +1,8 @@
 .mel {
   background-color: #FFD821;
-  background-image: url('blooming.mp4');
+  background-image: url('../mel/blooming.mp4');
   background-repeat: no-repeat;
   height: 3000px;
-  cursor: url('../images/maya-face.png'), default;
 }
 
 .mel .mel-text {
