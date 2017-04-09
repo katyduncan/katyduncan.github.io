@@ -1,0 +1,28 @@
+.cayman {
+ background: url('../cayman/kittiwake.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  cursor: url('../images/katy-face.png.png'), default;
+}
+
+.cayman-text {
+  font-family: cursive;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.cayman-text h1 {
+  font-size: 50px;
+}
+
+.cayman-text h3 {
+  font-size: 30px;
+}
+
+.cayman img {
+  width: 15%;
+  margin-right: 4%;
+  display: inline-block;
+}
