@@ -1,23 +1,36 @@
 .mel {
-  background-color: #FFD821;
+  background-color: rgba(33, 50, 255, 0.38);
   background-image: url('../mel/blooming.gif');
   background-repeat: no-repeat;
   height: 3000px;
+  background-size: 60%;
 }
 
 .mel .mel-text {
   font-family: cursive;
   padding-top: 50px;
-  padding-right: 80px;
+  margin-left: 5%;
   float: right;
-  text-align: center;
-  padding-right: 80px;
+  width: 35%;
 }
 
 .mel .mel-text h1 {
   font-size: 50px;
+  margin-top: 0;
 }
 
 .mel .mel-text p {
   font-size: 25px;
+  float: right;
+  padding-right: 20%;
+  margin-top: 0;
+}
+
+.message {
+  padding-left: 6%;
+  text-align: center;
+}
+
+.signature span{
+  padding-left: 15%;
 }
