@@ -1,3 +1,7 @@
+body {
+  cursor: url('../cayman/steering.png'), default;
+}
+
 .cayman {
  background: url('../cayman/kittiwake.gif') no-repeat center center fixed;
   -webkit-background-size: cover;
