@@ -1,5 +1,5 @@
 body {
-  cursor: url('../cayman/steering.psd.jpg'), default;
+  cursor: url('../cayman/steering.jpg.png'), default;
 }
 
 .cayman {
@@ -8,7 +8,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  cursor: url('../cayman/steering.psd.jpg'), default;
+  cursor: url('../cayman/steering.jpg.png'), default;
 }
 
 .cayman-text {
