@@ -1,10 +1,14 @@
+body {
+  cursor: url('../cayman/steering.psd.jpg'), default;
+}
+
 .cayman {
  background: url('../cayman/kittiwake.gif') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  cursor: url('../cayman/steering.png'), default;
+  cursor: url('../cayman/steering.psd.jpg'), default;
 }
 
 .cayman-text {
